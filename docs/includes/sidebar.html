@@ -1,0 +1,21 @@
+<aside class="sidebar">
+  <div class="profile">
+    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile Picture" class="profile-pic">
+    <h2>{{ site.author.name }}</h2>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+      <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="social-icons">
+    <a href="https://github.com/{{ site.social.github }}" target="_blank">🐙</a>
+    <a href="https://linkedin.com/in/{{ site.social.linkedin }}" target="_blank">💼</a>
+    <a href="https://twitter.com/{{ site.social.twitter }}" target="_blank">🐦</a>
+  </div>
+</aside>

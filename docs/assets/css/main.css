@@ -1,0 +1,54 @@
+/* Global font */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  line-height: 1.8;
+  margin: 0;
+  font-size: 18px; /* default text size */
+}
+
+/* Center hero on homepage */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* vertical center */
+  align-items: center;      /* horizontal center */
+  min-height: 100vh;        /* full screen height */
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #f9fafb, #f1f5f9);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.hero h1 {
+  font-size: 3.2em; /* bigger headline */
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.hero p {
+  font-size: 1.4em;  /* bigger subtitle */
+  margin-bottom: 30px;
+  color: #475569;
+  max-width: 700px;
+}
+
+.hero .highlight {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #64748b;
+  background: #f1f5f9;
+}
+
+.hero .btn {
+  font-size: 1.1em;
+  padding: 14px 24px;
+}
